@@ -1,12 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/png">
     <title>Sonic 3</title>
 </head>
-<body>
-    <h1>SLA</h1>
-    <p>Sla ta funcionando?</p>
+<body style="margin-top: 100px; background-color: #060606; font-family: 'Inter'; color: aliceblue;">
+    <header style="background-color: #060606; height: 50px; width: 100%; top: 0px ; left: 0px; display: flex; align-items: center; padding: 10px 30px; position: fixed; z-index: 2000; justify-content: end;">
+        <nav>
+            <a style="color: white; font-size: 25px; margin-right: 10px; text-decoration: none;" href="#Home"><b>Home</b></a>
+            <a style="margin-right: 10px; font-size: 25px; text-decoration: none; color: aliceblue;" href="#Sinopse"><b>Sinopse</b></a>
+            <a style="margin-right: 10px; font-size: 25px; text-decoration: none; color: aliceblue;" href="#Referencias"><b>Referências</b></a>
+            <a style="margin-right: 55px; font-size: 25px; text-decoration: none; color: aliceblue;" href="#Musica"><b>Música</b></a>
+        </nav>
+    </header>
+   
+    <section class="shadow">
+       <h1 style="text-align: center;">Sonic 3 <br> A melhor adaptação de um jogo para os cinemas</h1>
+    </section>
+
+    <section id="Home">  
+        <h1>Home</h1>
+        <p>A franquia de jogos <i>Sonic the Hedgehog</i> foi capaz de realizar um feito inédito: com seu terceiro título sendo um sucesso nos cinemas, a franquia de jogos a consolidou uma marcante trilogia nos cinemas. <br> Nesse terceiro título da franquia, acompanhamos Sonic, Knuckles e Tails se juntarem para enfrentar Shadow, um novo e misterioso antagonista com poderes diferentes de tudo que já enfrentaram antes. As habilidades do trio são superadas em todos os aspectos e eles precisam buscar uma improvável aliança.</p>
+    </section>
+
+    <section id="Sinopse"> 
+        <h1>Sinopse do filme</h1>
+        <p>Resumo do filme e opiniao</p>
+    </section>
+
+    <section id="Referencias"> 
+        <h1>Referência aos jogos</h1>
+        <p>Sonic 3: O Filme teve como principal base para sua trama um dos jogos mais aclamados da franquia: <i>Sonic Adventure 2</i> jogos responsável por elevar a franquia tanto em termos de jogabilidade e enredo. O antagonista do filme, Shadow, teve sua estreia na franquia nesse jogo, também como antagonista. </p>
+        <img src="imagens/sonicXshadow.webp" alt="" style="display: block; margin: auto; height: 500px;">
+    </section>
+
+    <section id="Musica">
+        <h1>A magia de <i>Live and Learn</i></h1>
+        <p><i>Live and learn</i> é a música tema do jogo <i>Sonic Adventure 2</i> que também esta presente como tema principal no filme.<br>Composta pela banda nipo-americana <i>Crush 40,</i> a música é uma energizante preseça no filme,<br> sendo um rock energético que, ao entrar em cena, deixa tudo em mais pura adrenalina.</p>
+        <a href="https://youtu.be/3gPBmDptqlQ?si=qDJkPbG0Ro2lvlWc">
+            <img src="imagens/Sonic_Adventure_2_capa.png" alt="Melhor música" class="imagem">
+            <img src="imagens/Rainbow Spin Sticker by Free & Easy.gif" alt="">
+        </a>
+    </section>
+    
+    <style>.imagem {
+        position: relative;
+        left: 800px;
+    }
+
+</style>
+
+<style> .shadow {
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7), rgba(0,0,0,0.7)
+    ),
+     url(imagens/shadow.webp); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;}
+</style>
+
+
+
 </body>
 </html>
